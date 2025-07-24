@@ -10,3 +10,25 @@
     6. Find out what position "Paul" is in your final friends list (remember: position counting starts from 1 for humans!).
     7. arrange your contacts in Descending Alphabetical Order using.
 """
+
+friends = ["Aisha", "Daniel", "Esther", "John", "Mary", "Paul", "Ruth"]
+#Adding kemi between john and mary
+friends.insert(4, "Kemi")
+print(friends)
+#Removing Daniel
+del friends[1]
+print(friends)
+#Updating Aisha
+friends[0] = "Aisha-M"
+print(friends)
+#Adding Zainab
+friends.append("Zainab")
+print(friends)
+#Creating New List
+new_friends = friends[0:3]
+print(new_friends)
+#Finding Where Paul Is
+
+#Arranging The friend list
+sorted(friends)
+print(f"{friends[::-1]}")
