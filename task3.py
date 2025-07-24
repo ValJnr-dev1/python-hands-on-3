@@ -10,3 +10,16 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+money = [1000, 1200, 800, 1500, 1100]
+print(money)
+#Sum of the porket money
+total = sum(money)
+print(f"The total is >>> {total}")
+#Checking and replacing the mistake
+money[2] = 1000
+print(money)
+new_total = sum(money)
+print(f"New Total is >>> {new_total}")
+#displaying in reverse order
+print(f"{money[::-1]}")
